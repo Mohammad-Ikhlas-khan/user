@@ -53,6 +53,13 @@ spring.datasource.url=jdbc:postgresql://localhost:5432/userdb
 spring.datasource.username=YOUR_USERNAME
 spring.datasource.password=YOUR_PASSWORD
 ```
+To create(copy structure of) database and table in PostgreSQL run the following Queries in PG Admin 4:
+```bash
+CREATE DATABASE IF NOT EXITS user_db;
+USE user_details;
+
+CREATE TABLE user_details ( id SERIAL PRIMARY KEY, name VARCHAR(255), fatherName VARCHAR(255), email VARCHAR(255), phoneNo VARCHAR(20), qualification VARCHAR(255), nationality VARCHAR(50), dob DATE, gender VARCHAR(50), address VARCHAR(500), city VARCHAR(100), state VARCHAR(100), pincode VARCHAR(20), password VARCHAR(255) );
+```
 ## API Endpoints
 ```bash
 POST   /users/create
