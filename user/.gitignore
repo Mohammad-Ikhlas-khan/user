@@ -1,0 +1,25 @@
+HELP.md
+target/
+.mvn/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+.gitattributes/
+mvnw/
+mvnw.cmd/
+
+### STS ###
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+
+### VS Code ###
+../frontend/node_modules/
+../frontend/.env
+.vscode/
+
+user/src/main/resources/application.properties

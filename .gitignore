@@ -1,0 +1,16 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Spring Boot
+target/
+
+# React
+frontend/node_modules/
+frontend/dist/
+
+# Environment
+.env
+
+# DB Credentials
+user/src/main/resources/application.properties
